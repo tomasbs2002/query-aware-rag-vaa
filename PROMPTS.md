@@ -3,7 +3,7 @@
 This document contains the exact system instructions and prompt templates used to guide the Large Language Model (`Llama-3.1-8B-Instruct`) in the different experimental configurations of the system.
 
 ## 1. Query Classifier (Router)
-This prompt is used in the **Query-Aware** architecture to classify the intent of the user's question before retrieval. It uses a Few-Shot approach.
+This prompt is used in the **Query-Aware** configurations to classify the intent of the user's question before retrieval. It uses a Few-Shot approach.
 
 **System Prompt:**
 ```text
@@ -42,7 +42,7 @@ JSON:
 
 ---
 
-## 2. Query-Aware Architecture: Generation Prompts
+## 2. Query-Aware System: Generation Prompts
 Once the router has classified the query, the system branches using one of the following prompts.
 
 ### 2.A. General Knowledge Generation
@@ -93,8 +93,8 @@ INSTRUCTION: Identify which parties have relevant positions to answer this quest
 
 ---
 
-## 3. Baseline Architecture: Unified (Naive) RAG Generation
-This prompt is used in the baseline architectures where routing is skipped, and the LLM is expected to classify and handle everything implicitly through context.
+## 3. Baseline System: Unified RAG Generation
+This prompt is used in the baseline configurations where routing is skipped, and the LLM is expected to classify and handle everything implicitly through context.
 
 **System Prompt:**
 ```text
