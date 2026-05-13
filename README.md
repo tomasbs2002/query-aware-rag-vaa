@@ -1,8 +1,7 @@
-# Anonymous Materials for: Query-Aware, RAG-based Conversational Agent for Voting Advice Applications
+# Query-Aware, RAG-based Conversational Agent for Voting Advice Applications
 
 This repository contains supplemental material to support the reproducibility of the system described in the conference paper. 
 
-To preserve the double-blind review process, this repository has been anonymized.
 
 ## Contents
 - `PROMPTS.md`: Contains the complete, exact system instructions and few-shot prompt templates used to orchestrate the Large Language Model (`Meta-Llama-3.1-8B-Instruct`). This includes:
